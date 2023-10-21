@@ -1,0 +1,34 @@
+.Box-Card-ALL{
+    max-width: 100vw;
+}
+.Box-Titulo{
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.genero-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.tituloCard{
+    position: relative;
+    z-index: 1;
+    top: 55%;
+    color: whitesmoke;
+}
+.card{
+    border-radius: 10px;
+    color: white;
+    background-color: #333;
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

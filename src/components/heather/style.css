@@ -1,0 +1,19 @@
+.boxLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
+} 
+.title{
+    display: inline-block;
+}
+.instagramlogo{
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
+}

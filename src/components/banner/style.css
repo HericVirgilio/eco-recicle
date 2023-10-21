@@ -1,0 +1,25 @@
+.banner{
+    min-width: 100vw;
+    height: 500px;
+    background-color: #68A7BD;
+    display: flex;
+    align-items: center;
+}
+.boxBanner{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tituloBanner{
+    font-size: 3em;
+}
+.textoBanner{
+    color: white;
+    display: inline-block;
+    font-size: 1.1em;
+}
+.imgBanner{
+    max-height: 90%;
+    display: inline-block;
+}
