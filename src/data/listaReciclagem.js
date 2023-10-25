@@ -1,26 +1,32 @@
 export const  lista = [
     {
         name: "Plástico",
-        url: "http://localhost:3000/madeira.jpg"
+        nameUrl: "plastico",
+        url: "http://localhost:3000/plastico.jpg"
     },
     {
         name: "Papel",
+        nameUrl: "papel",
         url:"http://localhost:3000/papel.jpg"
     },
     {
         name: "Vidro",
+        nameUrl: "vidro",
         url: "http://localhost:3000/vidro.jpg"
     },
     {
         name: "Metal",
+        nameUrl: "metal",
         url: "http://localhost:3000/metal.jpg"
     },
     {
         name: "Eletrônicos",
+        nameUrl: "eletronicos",
         url: "http://localhost:3000/eletronico.jpg"
     },
     {
         name: "Madeira",
+        nameUrl: "madeira",
         url: "http://localhost:3000/madeira.jpg"
     }
 ]

@@ -1,0 +1,59 @@
+.Capsula{
+    overflow-x: hidden;
+}
+.tituloPagePlastico{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Container{
+    text-align: center;
+}
+.boxMapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mapa{
+    border-radius: 20px;
+    border: 0;
+}
+.ContainerDuvidas{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.tituloDuvidas{
+    display: inline-block;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.MateriasisBox{
+    background-color: #68A7BD;
+    margin-top: 50px;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrincipiosReciclagem{
+    margin-top: 25px;
+    background-color: #68A7BD;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.ArrowHero{
+    max-width: 50px;
+    margin-top: 5px;
+}

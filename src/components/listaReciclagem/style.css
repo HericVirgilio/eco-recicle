@@ -15,6 +15,9 @@
     text-align: center;
     justify-content: center;
 }
+.container-card{
+    text-decoration: none;
+}
 .tituloCard{
     position: relative;
     z-index: 1;
