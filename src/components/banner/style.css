@@ -1,10 +1,9 @@
 .banner{
     min-width: 100vw;
     height: 500px;
-    background-color: #68A7BD;
+    background-color: #7ED158;
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
 .boxBanner{
     display: flex;
     align-items: center;
@@ -15,7 +14,7 @@
     font-size: 3em;
 }
 .textoBanner{
-    color: white;
+    color: #1A0C24;
     display: inline-block;
     font-size: 1.1em;
 }

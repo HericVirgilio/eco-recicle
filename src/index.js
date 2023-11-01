@@ -1,13 +1,50 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
+import Plastico from './Pages/plastico/index.jsx';
+import Baterias from './Pages/bateria/index.jsx';
+import Eletronicos from "./Pages/eletronicos"
+import Metal from "./Pages/metal"
+import Vidro from "./Pages/vidro"
+import Papel from "./Pages/papel"
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>
+  },
+  {
+    path: "plastico",
+    element: <Plastico />
+  },
+  {
+    path: "baterias",
+    element: <Baterias/>
+  },
+  {
+    path: "eletronicos",
+    element: <Eletronicos/>
+  },
+  {
+    path: "metal",
+    element: <Metal/>
+  },
+  {
+    path: "vidro",
+    element: <Vidro/>
+  },
+  {
+    path: "papel",
+    element: <Papel/>
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

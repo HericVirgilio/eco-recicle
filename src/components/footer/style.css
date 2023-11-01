@@ -1,17 +1,17 @@
 .BoxFooter{
-    background-color: #2e5868;
+    background-color: #73BD51;
     padding: 3em;
     margin-top: 5%;
     text-align: center;
 }
 .devTitulo{
-    color: #FEFDDE;
+    color: #250569;
     max-height: 20px;
     font-size: 1.8em;
 }
 .linkFooter{
     display: block;
-    color: #FFEFA5;
+    color: #250569;
     font-size: 1.5em;
     text-decoration: none;
 }

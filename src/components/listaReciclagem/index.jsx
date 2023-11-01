@@ -1,5 +1,7 @@
 import './style.css'
+import { Link } from "react-router-dom"
 import { lista } from "../../data/listaReciclagem.js"
+
 const ListaReciclagem = () => {
     return(
         <div>
@@ -8,10 +10,10 @@ const ListaReciclagem = () => {
             </div>
             <div className='genero-container'>
                 {lista.map((lista) => (
-                    <div className='container-card'> 
+                    <Link key={lista.nameUrl} to={`${lista.nameUrl}`} className='container-card'> 
                         <h3 className='tituloCard'>{lista.name}</h3>
                         <div className='card' style={{ backgroundImage: `url(${lista.url})`, filter: 'brightness(70%)' }}></div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>

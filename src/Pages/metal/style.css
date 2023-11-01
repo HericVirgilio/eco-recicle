@@ -1,0 +1,41 @@
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#opcao{
+    height: 40px;
+    width: 400px;
+    background-color: #272626;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #d8d8d8;
+    border: 5px solid #2d2d2d;
+    margin-right: 10px;
+}
+.botao{
+    height: 40px;
+    width: 100px;
+    background-color: #272626;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #d8d8d8;
+    border: 5px solid #2d2d2d;
+}
+.boxContainertudo{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10vw;
+}
+.boxMapa{
+
+}
+.boxTextoM{
+    background-color: red;
+    color: red;
+}
