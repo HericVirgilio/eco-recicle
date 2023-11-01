@@ -5,11 +5,6 @@ export const  lista = [
         url: "http://localhost:3000/plastico.jpg"
     },
     {
-        name: "Papel",
-        nameUrl: "papel",
-        url:"http://localhost:3000/papel.jpg"
-    },
-    {
         name: "Vidro",
         nameUrl: "vidro",
         url: "http://localhost:3000/vidro.jpg"
@@ -25,8 +20,13 @@ export const  lista = [
         url: "http://localhost:3000/eletronico.jpg"
     },
     {
-        name: "Madeira",
-        nameUrl: "madeira",
-        url: "http://localhost:3000/madeira.jpg"
+        name: "Baterias",
+        nameUrl: "baterias",
+        url: "http://localhost:3000/bateria.jpg"
+    },
+    {
+        name: "Papel",
+        nameUrl: "papel",
+        url:"http://localhost:3000/papel.jpg"
     }
 ]

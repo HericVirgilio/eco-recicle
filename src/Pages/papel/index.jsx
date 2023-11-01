@@ -1,7 +1,7 @@
 import "./style.css"
 import Heather from "../../components/heather";
 import Footer from "../../components/footer";
-const Plastico = () => {
+const Papel = () => {
     return (
         <div className="Capsula">
             <Heather />
@@ -20,11 +20,6 @@ const Plastico = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="boxTexto">
-                <h1>Principios da Reciclagem</h1>
-                <p className="texto_auxiliar">Antes de Descartar, Compreenda a Sustentabilidade: Descubra Como Contribuir para um Mundo Mais Verde! Explore Nosso Site para as Melhores Dicas sobre uma Vida Eco-Friendly. Juntos, Podemos Fazer a Diferença! 🌱♻️</p>
-            </div>
             <div className="Opcoes">
                 <div className="Itens">
                     <div className="Item"><h1>Reduzir</h1> <p className="paragrafo">A primeira etapa é reduzir a quantidade de resíduos que geramos. Isso envolve consumir de forma consciente, comprando apenas o necessário, evitando desperdícios e optando por produtos com menos embalagens. Reduzir também inclui escolher produtos duráveis em vez de descartáveis, o que ajuda a diminuir a produção de resíduos a longo prazo.</p></div>
@@ -39,4 +34,4 @@ const Plastico = () => {
         </div>
     )
 }
-export default Plastico;
+export default Papel;

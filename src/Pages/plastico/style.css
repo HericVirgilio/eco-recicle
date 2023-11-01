@@ -1,59 +1,57 @@
 .Capsula{
     overflow-x: hidden;
 }
-.tituloPagePlastico{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.Container{
-    text-align: center;
-}
 .boxMapa{
+    background-color:#7ED158 ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #122644;
+    font-weight: 500;
+}
+.Mapa{
+    border: none;
+}
+.boxGrid{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Mapa{
-    border-radius: 20px;
-    border: 0;
+.boxInformacoes{
+    max-width: 40vw;
+    margin-left: 100px;
 }
-.ContainerDuvidas{
+.Opcoes{
+    text-align: center;
+}
+.Item{
+    background-color: #97BF04;
+    font-size: 1.0em;
+    margin-top: 50px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+    color: white;
+    width: 20vw;
+    height: 45vh;
+}
+.Itens{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40vw 40vw;
+    align-items: center;
+    margin-left: 200px;
+}
+.boxTexto{
+    margin-top: 20px;
     display: grid;
     justify-content: center;
     text-align: center;
 }
-.tituloDuvidas{
-    display: inline-block;
-    margin: 0;
-    margin-top: 50px;
-    font-size: 50px;
+.texto_auxiliar{
+
+    width: 50vw;
+    
 }
-.MateriasisBox{
-    background-color: #68A7BD;
-    margin-top: 50px;
-    width: 600px;
-    height: 50px;
-    border-radius: 10px;
-    color: white;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.PrincipiosReciclagem{
-    margin-top: 25px;
-    background-color: #68A7BD;
-    width: 600px;
-    height: 50px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 25px;
-}
-.ArrowHero{
-    max-width: 50px;
-    margin-top: 5px;
+.paragrafo{
+    font-size: 20px;
 }
