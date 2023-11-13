@@ -1,4 +1,3 @@
-import "./style.css"
 import Heather from "../../components/heather";
 import Footer from "../../components/footer";
 const Vidro = () => {

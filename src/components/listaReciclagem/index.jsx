@@ -6,7 +6,7 @@ const ListaReciclagem = () => {
     return(
         <div>
             <div className='Box-Titulo'>
-                <h2 className='tituloBoxCard'>Oque você quer recilar?</h2>
+                <h2 className='tituloBoxCard'>Oque você quer reciclar?</h2>
             </div>
             <div className='genero-container'>
                 {lista.map((lista) => (

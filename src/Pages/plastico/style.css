@@ -48,10 +48,14 @@
     text-align: center;
 }
 .texto_auxiliar{
-
     width: 50vw;
-    
 }
 .paragrafo{
     font-size: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+    .item{
+        
+    }
 }
