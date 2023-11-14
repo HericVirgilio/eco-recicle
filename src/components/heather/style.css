@@ -1,25 +1,27 @@
-
+.box{
+   width: 100vw;
+}
 .boxLogo{
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-left: -100px;
-    margin-right: -100px;
+    justify-content: space-between;
 }
 .logo{
-    display: inline-block;
-    max-width: 50px;
-    max-height: 50px;
-} 
-.title{
-    display: inline-block;
-}
-.menuHamburguer{
-    display: inline-block;
-    max-width: 50px;
-    max-height: 50px;
+   display: none;
 }
 .LinkHeather{
     text-decoration: none;
     color: black;
 }
+@media screen and (min-width: 992px) {
+    .logo{
+        position: relative;
+        display: block;
+        width: 50px;
+    }
+    .LinkHeather{
+        margin-left: -100px;
+    }
+  }

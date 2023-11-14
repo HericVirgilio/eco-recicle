@@ -1,0 +1,18 @@
+.CaixaBotao{
+    text-decoration: none;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tectoBotao{
+    margin: auto;
+    max-width: 80vw;
+    background-color: #7ED158;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}

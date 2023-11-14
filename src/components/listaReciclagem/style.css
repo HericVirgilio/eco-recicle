@@ -1,11 +1,12 @@
 .Box-Card-ALL{
-    max-width: 100vw;
+    max-width: 80vw;
 }
 .Box-Titulo{
-    min-width: 100vw;
+    min-width: 80vw;
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    margin: auto;
 }
 
 .genero-container{
@@ -34,4 +35,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+@media screen and (max-width: 992px) {
+    .genero-container{
+        grid-template-columns: 300px;  
+    }
 }

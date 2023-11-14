@@ -10,6 +10,7 @@ import Eletronicos from "./Pages/eletronicos"
 import Metal from "./Pages/metal"
 import Vidro from "./Pages/vidro"
 import Papel from "./Pages/papel"
+import PagPrincipiosDaReciclagem from "./Pages/principiosDaReciclagem"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "papel",
     element: <Papel/>
+  },
+  {
+    path: "principios-da-reciclagem",
+    element: <PagPrincipiosDaReciclagem/>
   }
 ])
 

@@ -1,3 +1,6 @@
+.Capsula1{
+    width: 100vw;
+}
 .select{
     display: flex;
     justify-content: center;
@@ -32,10 +35,30 @@
     grid-template-columns: 1fr 1fr;
     margin-right: 10vw;
 }
-.boxMapa{
-
+.MetalAndroid{
+    display: none;
 }
-.boxTextoM{
-    background-color: red;
-    color: red;
+.gambiarra{
+    width: 100vw;
+    height: 50vh;
 }
+.boxMapa1{
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .boxMapa1{
+        display: none;
+    }
+    .MetalAndroid{
+        display: block;
+        max-width: 80vw;
+        margin: auto;
+    }
+    .gambiarra{
+        width: 0vw;
+        height: 0vh;
+    }
+    .MapaAndroid{
+        border: none;
+    }
+  }

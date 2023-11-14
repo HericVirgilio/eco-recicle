@@ -2,60 +2,23 @@
     overflow-x: hidden;
 }
 .boxMapa{
-    background-color:#7ED158 ;
+    width: 80vw;
+    margin: auto;
+    display: grid;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #122644;
-    font-weight: 500;
 }
-.Mapa{
+.Mapa45{
     border: none;
-}
-.boxGrid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 200px;
+    max-height: 150px;
 }
 .boxInformacoes{
-    max-width: 40vw;
-    margin-left: 100px;
+    max-width: 80vw;
+    margin: auto;
 }
-.Opcoes{
-    text-align: center;
-}
-.Item{
-    background-color: #97BF04;
-    font-size: 1.0em;
-    margin-top: 50px;
-    padding: 10px 100px 10px 100px;
-    border-radius: 20px;
-    color: white;
-    width: 20vw;
-    height: 45vh;
-}
-.Itens{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 40vw 40vw;
-    align-items: center;
-    margin-left: 200px;
-}
-.boxTexto{
-    margin-top: 20px;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-}
-.texto_auxiliar{
-    width: 50vw;
-}
-.paragrafo{
-    font-size: 20px;
-}
-
-@media screen and (max-width: 1440px) {
-    .item{
-        
+@media screen and (min-width: 992px) {
+    .Mapa45{
+        min-width: 600px;
+        min-height: 450px;
     }
-}
+  }

@@ -1,34 +1,44 @@
-.banner {
-    min-width: 100vw;
-    height: 500px;
+.banner{
+    width: 100vw;
     background-color: #7ED158;
-    display: flex;
+}
+.boxBanner{
+    display: grid;
     align-items: center;
 }
-
-.boxBanner {
-    display: flex;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+.tituloBanner{
+    text-align: center;
 }
-
-.tituloBanner {
-    font-size: 3em;
+.textoBanner{
+    margin: 5%;
 }
-
-.textoBanner {
-    color: #1A0C24;
-    display: inline-block;
-    font-size: 1.1em;
+.ContainerImgBanner{
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 5%;
 }
-
-.imgBanner {
-    display: inline-block;
+.imgBannerPrincipal{
+    width: 250px;
 }
-
-@media screen and (max-width: 1440px) {
-    .imgBanner {
-        max-width: 350px;
+@media screen and (min-width: 992px) {
+    .imgBannerPrincipal{
+        width: 350px;
+    }
+    .banner {
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .boxBanner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 80vw;
+        margin: auto;
+    }
+    .tituloBanner{
+        font-size: 2em;
+    }
+    .textoBanner{
+        font-size: 1.1em;
     }
 }
